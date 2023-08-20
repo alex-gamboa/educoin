@@ -24,3 +24,32 @@ esto generara tu direccion y tu llave privada, debes almacenarlas para poder rea
 transacciones.
 
 ![wallet](assets/wallet.png)
+
+ahora que tenemos nuestra billetera podemos enviar transacciones a los nodos de la siguiente
+manera:
+
+`python main.py --transaction -pubk <public-key> -prvk <private-key> -r <destino> -a <monto>`
+
+recibiras una respuesta indicando el bloque en el que será agregada la transaccion
+
+despues de enviar algunas transacciones puedes pedirle al nodo que mine el bloque
+para que se agregue a la cadena y tus transacciones queden incluidas.
+
+`python main.py --minar`
+
+recibiras como respuesta el bloque minado
+
+![bloque](assets/bloque.png)
+
+por ultimo si deseas visualizar toda la cadena de bloques completa puedes usar
+el siguiente comando
+
+`python main.py --blockchain`
+
+![cadena](assets/cadena.png)
+
+
+## Notas
+
+Aun no se implementa la funcionalidad del diccionario de nodos, aunque ya esta hecha los nodos no lo
+utilizan aún.
