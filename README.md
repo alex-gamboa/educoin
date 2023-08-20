@@ -23,4 +23,4 @@ una vez que por lo menos un nodo este corriendo podemos utilizar el cliente en s
 esto generara tu direccion y tu llave privada, debes almacenarlas para poder realizar
 transacciones.
 
-![wallet](assets/wallet.jpg)
+![wallet](assets/wallet.png)
